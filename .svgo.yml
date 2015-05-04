@@ -18,6 +18,7 @@ plugins:
 
   - removeDoctype
   - removeXMLProcInst
+  - removeXMLStandaloneNo
   - removeComments
   - removeMetadata
   - removeXMLNS
