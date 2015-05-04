@@ -45,6 +45,7 @@ plugins:
   - mergePaths
   - removeUnusedNS
   - transformsWithOnePath
+  - addFillStrokeClass
   - sortAttrs
   - removeTitle
   - removeDesc
