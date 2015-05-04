@@ -20,10 +20,8 @@ exports.active = true;
 exports.fn = function(item) {
 
     if (item.processinginstruction && item.processinginstruction.name === 'xml') {
-	var newBody = item.processinginstruction.body.toLowerCase();
-	item.processinginstruction.body = newBody.replace("standalone=\"no\"", "").trim()
+	item.processinginstruction.body = item.processinginstruction.body.replace(/standalone="no"/i, "").trim()
     }
 
     return item;
-
 };
