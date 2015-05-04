@@ -16,6 +16,7 @@ plugins:
 
   - removeDoctype
   - removeXMLProcInst
+  - removeXMLStandaloneNo
   - removeComments
   - removeMetadata
   - removeEditorsNSData
