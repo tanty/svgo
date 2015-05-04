@@ -51,6 +51,7 @@ plugins:
   - removeEmptyContainers
   - mergePaths
   - removeUnusedNS
+  - addFillStrokeClass
   - sortAttrs
   - sortDefsChildren
   - removeTitle
