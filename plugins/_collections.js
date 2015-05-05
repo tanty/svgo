@@ -1961,7 +1961,7 @@ exports.elems = {
             height: '100%',
             preserveAspectRatio: 'xMidYMid meet',
             zoomAndPan: 'magnify',
-            version: '1.1',
+            // version: '1.1',
             baseProfile: 'none',
             contentScriptType: 'application/ecmascript',
             contentStyleType: 'text/css'
