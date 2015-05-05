@@ -23,7 +23,7 @@ exports.fn = function(item) {
 	var attrs = {};
 	var value;
 
-    	if (item.hasAttr('fill') || !item.hasAttr('stroke')) {
+    	if ((item.hasAttr('fill') && item.attrs['fill'].value !== 'none') || !item.hasAttr('stroke')) {
 	    value = 'filled';
     	} else {
 	    value = 'stroked';
